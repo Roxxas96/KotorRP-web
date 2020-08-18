@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERO-StarwarsRP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Documents/logoERO.png">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar nav-bar-deployed">
+            <div class="nav-side">
+                <a href="./index.html">Accueil</a>
+                <a href="./carte.html">Carte</a>
+                <a href="./forum.html" class="active-nav-link">Forum</a>
+            </div>
+            <a class="nav-logo" href="./index.html"><img src="./Documents/logoERO.png" alt=""></a>
+            <div class="nav-side">
+                <a href="./join.html">Nous rejoindre</a>
+                <a href="./staff.html">Staff</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="burger" style="display: none;" onclick="BurgerClicked(event.currentTarget)"><img id="burger-button" src="./Documents/burger-button.png" alt=""></div>
+
+        <div class="right-menu" style="display: none;">
+            <li>
+                <ul><a href="./index.html">Accueil</a></ul>
+                <ul><a href="./carte.html">Carte</a></ul>
+                <ul><a href="./forum.html" class="active-nav-link">Forum</a></ul>
+                <ul><a href="./join.html">Nous rejoindre</a></ul>
+                <ul><a href="./staff.html">Staff</a></ul>
+                <ul><a href="./contact.html">Contact</a></ul>
+            </li>
+        </div>
+
+        <div onclick="GoUpButtonClicked(event.currentTarget)" class="go-up-button"><img src="./Documents/go-up.png" alt=""></div>
+        
+        <a class="discord-button discord-button-deployed" href="https://discord.gg/AJW4zDX"><img src="./Documents/discord-white.png" alt=""></a>
+
+        <div class="comming-soon"><p>Comming soon !</p></div>
+        <div class="credits"><p>Made by Roxxas96</p></div>    
+    </div>
+</body>
+<script src="./forum.js"></script>
+</html>

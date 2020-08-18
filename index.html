@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERO-StarwarsRP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Documents/logoERO.png">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="nav-side">
+                <a href="./index.html" class="active-nav-link">Accueil</a>
+                <a href="./carte.html">Carte</a>
+                <a href="./forum.html">Forum</a>
+            </div>
+            <a class="nav-logo" href="./index.html"><img src="./Documents/logoERO.png" alt=""></a>
+            <div class="nav-side">
+                <a href="./join.html">Nous rejoindre</a>
+                <a href="./staff.html">Staff</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div onclick="GoUpButtonClicked(event.currentTarget)" class="go-up-button"><img src="./Documents/go-up.png" alt=""></div>
+        
+        <a class="discord-button" href="https://discord.gg/AJW4zDX"><img src="./Documents/discord-white.png" alt=""></a>
+        
+        <div class="banner">
+            <div class="left-banner">
+                <a href="./index.html"><img src="./Documents/logoERO.png" alt=""></a>
+            </div>
+
+            <div class="burger" onclick="BurgerClicked(event.currentTarget)"><img id="burger-button" src="./Documents/burger-button.png" alt=""></div>
+
+            <iframe src="https://www.youtube.com/embed/cbCQh7XE26o?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class="right-menu">
+                <li>
+                    <ul><a href="./index.html" class="active-nav-link">Accueil</a></ul>
+                    <ul><a href="./carte.html">Carte</a></ul>
+                    <ul><a href="./forum.html">Forum</a></ul>
+                    <ul><a href="./join.html">Nous rejoindre</a></ul>
+                    <ul><a href="./staff.html">Staff</a></ul>
+                    <ul><a href="./contact.html">Contact</a></ul>
+                </li>
+            </div>
+        </div>
+        <div class="presentation">
+            <h1 class="Deploy">Qui sommes nous ?</h1>
+            <p class="Deploy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus. Nunc tincidunt, elit sed posuere congue, diam elit placerat lorem, id cursus mauris urna eu sapien. Nam ultrices, ipsum in eleifend venenatis, sem dolor placerat nunc, non tincidunt purus tortor eu quam. Mauris in aliquet ex, vitae tincidunt justo. Proin sit amet nunc quis leo tristique fringilla. Aliquam faucibus pellentesque est, a laoreet urna fringilla eu. Maecenas varius interdum porta.</p>    
+        </div>
+        <div class="lore">
+            <h1 class="Deploy">Le lore principal</h1>
+            <p class="Deploy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus. Nunc tincidunt, elit sed posuere congue, diam elit placerat lorem, id cursus mauris urna eu sapien. Nam ultrices, ipsum in eleifend venenatis, sem dolor placerat nunc, non tincidunt purus tortor eu quam. Mauris in aliquet ex, vitae tincidunt justo. Proin sit amet nunc quis leo tristique fringilla. Aliquam faucibus pellentesque est, a laoreet urna fringilla eu. Maecenas varius interdum porta.</p>
+        </div>
+        <div class="camps">
+            <div class="camps-titre">
+                <h1 class="Deploy">Choisi ton camp !</h1>
+            </div>
+            <div class="camps-illustrations">
+                <div class="republique">
+                    <img class="repu-background" src="./Documents/ilu-repu.png" alt="">
+                    <img class="repu-logo" src="./Documents/logoRepu.jpg" alt="">
+                    <div class="repu-presentation">
+                        <h1>La République</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus. Nunc tincidunt, elit sed posuere congue, diam elit placerat lorem, id cursus mauris urna eu sapien. Nam ultrices, ipsum in eleifend venenatis, sem dolor placerat nunc, non tincidunt purus tortor eu quam. Mauris in aliquet ex, vitae tincidunt justo. Proin sit amet nunc quis leo tristique fringilla. Aliquam faucibus pellentesque est, a laoreet urna fringilla eu. Maecenas varius interdum porta.</p>
+                    </div>
+                    <div class="repu-lore">
+                        <h1>Lore Républicain</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus. Nunc tincidunt, elit sed posuere congue, diam elit placerat lorem, id cursus mauris urna eu sapien. Nam ultrices, ipsum in eleifend venenatis, sem dolor placerat nunc, non tincidunt purus tortor eu quam. Mauris in aliquet ex, vitae tincidunt justo. Proin sit amet nunc quis leo tristique fringilla. Aliquam faucibus pellentesque est, a laoreet urna fringilla eu. Maecenas varius interdum porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus.</p>    
+                    </div>
+                </div>
+                <div class="empire">
+                    <img class="empire-background" src="./Documents/illu-empire.png" alt="">
+                    <img class="empire-logo" src="./Documents/logoEmpire.jpg" alt="">
+                    <div class="empire-presentation">
+                        <h1>L'Empire</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus. Nunc tincidunt, elit sed posuere congue, diam elit placerat lorem, id cursus mauris urna eu sapien. Nam ultrices, ipsum in eleifend venenatis, sem dolor placerat nunc, non tincidunt purus tortor eu quam. Mauris in aliquet ex, vitae tincidunt justo. Proin sit amet nunc quis leo tristique fringilla. Aliquam faucibus pellentesque est, a laoreet urna fringilla eu. Maecenas varius interdum porta.</p>
+                    </div>
+                    <div class="empire-lore">
+                        <h1>Lore de l'Empire</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus. Nunc tincidunt, elit sed posuere congue, diam elit placerat lorem, id cursus mauris urna eu sapien. Nam ultrices, ipsum in eleifend venenatis, sem dolor placerat nunc, non tincidunt purus tortor eu quam. Mauris in aliquet ex, vitae tincidunt justo. Proin sit amet nunc quis leo tristique fringilla. Aliquam faucibus pellentesque est, a laoreet urna fringilla eu. Maecenas varius interdum porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus.</p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gameplay">
+            <div class="g-presentation g-top">
+                <div>
+                    <img src="./Documents/red-flag.png" alt="">
+                </div>
+                <div class="g-texte">
+                    <h1>Gameplay</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus.</p>
+                </div>
+            </div>
+            <div class="g-presentation g-top">
+                <div>
+                    <img src="./Documents/red-flag.png" alt="">
+                </div>
+                <div class="g-texte">
+                    <h1>Gameplay</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus.</p>
+                </div>
+            </div>
+            <div class="g-presentation g-bottom">
+                <div>
+                    <img src="./Documents/red-flag.png" alt="">
+                </div>
+                <div class="g-texte">
+                    <h1>Gameplay</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus.</p>
+                </div>
+            </div>
+            <div class="g-presentation g-bottom">
+                <div>
+                    <img src="./Documents/red-flag.png" alt="">
+                </div>
+                <div class="g-texte">
+                    <h1>Gameplay</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sodales risus. Sed eget lacus vitae libero tristique aliquet quis in tellus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="nous-rejoindre">
+            <div class="join-texte">
+                <h1 class="Deploy">Rejoignez nous sur discord !</h1>
+                <div>
+                    <a class="discord-join-button" href="https://discord.gg/AJW4zDX">Rejoindre le discord</a>
+                </div>
+            </div>
+            <widgetbot
+                server="607493470512218112"
+                channel="613461429445460043"
+                class="discord-widget"
+            ></widgetbot>
+            <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+        </div>
+        <div class="credits">
+            <p>Made by Roxxas96</p>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
